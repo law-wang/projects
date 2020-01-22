@@ -26,10 +26,11 @@ body {
 /* Text */
 h1 {
 	font-family: neue-haas-grotesk-display, "Helvetica-Neue", sans-serif;
-	font-weight: 400;
+	font-weight: 700;
 	font-style: normal;
 	font-size: 50px;
 	letter-spacing: 5px;
+	padding-top: 20px;
 }
 h4 {
 	color: #1a1a1a;
@@ -41,14 +42,14 @@ h4 {
 }
 h5 {
 	font-size: 20px;
-	font-style: italic;
 	text-transform: lowercase;
-	margin: 5px 0 15px 0;
+	margin: 10px 0 15px 0;
 }
 h6 {
 	color: #1a1a1a;
 	font-size: 25px;
 	text-transform: lowercase;
+	letter-spacing: 3px;
 	padding: 20px 0 5px 0;
 	margin: 0;
 }
@@ -81,17 +82,22 @@ h6 {
 	text-align: center;
 	text-transform: capitalize;
 	line-height: normal;
-	width: 80%;
+	width: 75%;
 	margin: auto;
 }
 .description {
 	margin: 10px auto 0 auto;
-	font-family: orpheuspro, aktiv-grotesk, serif;
-	font-weight: 300;
+	font-family: baskerville-urw, whitman-display, orpheuspro, aktiv-grotesk, serif;
+	font-weight: 400;
+	font-size: 18px;
 	font-style: italic;
 	text-align: justify;
+	letter-spacing: 1px;
 	width: 70%;
 	max-width: 500px;
+}
+.emphasize {
+	font-style: normal;
 }
 .projectcontainer {
 	width: 40%;
@@ -113,15 +119,21 @@ a {
 	text-decoration: none;
 	color: #1a1a1a;
 }
-a:hover {
-	font-style: italic;
-}
-.project a {
-}
 .project a:hover {
-	font-family: whitman-display, serif;
+	font-family: orpheuspro, whitman-display, serif;
 	line-height: 1.25;
-	letter-spacing: 2px;
+	font-style: italic;
+	letter-spacing: 3px;
+}
+.project h4:hover {
+	font-family: orpheuspro, whitman-display, serif;
+	line-height: 1.25;
+	font-style: italic;
+	letter-spacing: 3px;
+}
+.archive a:hover {
+	font-style: italic;
+	letter-spacing: 3px;
 }
 .glowlink {
 	margin: auto;
