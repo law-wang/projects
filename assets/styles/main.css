@@ -19,6 +19,7 @@ body {
 	width: 100% !important;
 	top: 0;
 	left: 0;
+	margin-bottom: 10%;
 	vertical-align: center;
 	align-items: center;
 	box-sizing: border-box !important;
@@ -36,6 +37,7 @@ h4 {
 	color: #1a1a1a;
 	font-weight: 500;
 	font-size: 25px;
+	text-transform: capitalize;
 	padding: 10px 0 0 0;
 	margin: 0;
 }
@@ -47,9 +49,9 @@ h5 {
 }
 h6 {
 	color: #1a1a1a;
-	font-size: 18px;
+	font-size: 25px;
 	text-transform: lowercase;
-	padding: 10px 0 5px 0;
+	padding: 20px 0 5px 0;
 	margin: 0;
 }
 
@@ -110,19 +112,21 @@ h6 {
 a {
 	text-decoration: none;
 	color: #1a1a1a;
-	-webkit-transition: all .3s linear;
-	-moz-transition: all .3s linear;
-	-ms-transition: all .3s linear;
-	-o-transition: all .3s linear;
-	transition: all .3s linear;
 }
 a:hover {
 	font-style: italic;
-	letter-spacing: 2px;
+}
+.project a {
+	-webkit-transition: all .5s linear;
+	-moz-transition: all .5s linear;
+	-ms-transition: all .5s linear;
+	-o-transition: all .5s linear;
+	transition: all .5s linear;
 }
 .project a:hover {
 	font-family: whitman-display, serif;
 	line-height: 1.25;
+	letter-spacing: 2px;
 }
 .glowlink {
 	margin: auto;
