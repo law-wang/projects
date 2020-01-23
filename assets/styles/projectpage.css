@@ -95,13 +95,6 @@ h6 {
 		line-height: 22px;
 	background-color: rgba(0,0,0,0.0);
 }
-.project {
-	text-align: center;
-	text-transform: capitalize;
-	line-height: normal;
-	width: 80%;
-	margin: auto;
-}
 .description {
 	margin: 10px auto 0 auto;
 	font-family: baskerville-urw, whitman-display, orpheuspro, aktiv-grotesk, serif;
@@ -113,20 +106,59 @@ h6 {
 	width: 70%;
 	max-width: 500px;
 }
+.description h2 {
+	font-family: aktiv-grotesk, sans-serif;
+		font-size: 25px;
+		font-weight: 700;
+		font-style: normal;
+		text-transform: uppercase;
+}
 .dright {
 	margin: 5% auto 0 60%;
 	width: 20%;
 }
-.title {
+.dleft {
+	margin: -6% auto 0 17%;
+	background-color: rgb(230, 230, 230, 0.65);
+	padding: 15px;
+}
+.drightbottom {
+	margin-top: 20%;
+	padding: 15px;
+	background-color: rgb(230, 230, 230, 0.65);
+}
+.titleleft {
 	margin-left: 20%;
 	padding: 0 2% 0 2%;
 	position: absolute;
+}
+.titlecenter {
+	text-align: center;
+	line-height: normal;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
 }
 .imageleft {
 	position: absolute;
 	width: 45%;
 	margin-top: 6%;
 	margin-left: 20%;
+	padding: 2%;
+	z-index: -99;
+}
+.imagelefthopefuls {
+	margin-top: 0;
+	width: 50%;
+	margin-left: 15%;
+}
+.imagerightbottom {
+	position: absolute;
+	width: 50%;
+	margin-top: 0;
+	margin-left: 30%;
+	margin-right: auto;
 	padding: 2%;
 	z-index: -99;
 }
@@ -207,7 +239,7 @@ mark {
 	}
 }
 @media only screen and (max-width: 1000px) {
-	.imageleft {
+	.imageleft, .imagerightbottom {
 		position: relative;
 		align-items: center;
 		margin-top: 0;
@@ -228,6 +260,10 @@ mark {
 	.dright {
 		margin: auto;
 		width: 50%;
+	}
+	.drightbottom, .dleft {
+		background-color: inherit;
+		margin-bottom: 20px;
 	}
 	.overall {
 		margin-bottom: 100px;
@@ -257,11 +293,10 @@ mark {
 		background-color: rgba(0,0,0,0.0);
 		margin-bottom: 5%;
 	}
-	.imageleft {
+	.imageleft, .imagerightbottom {
 		width: 90%;
 	}
 	.dright {
-		margin: auto;
 		width: 90%;
 	}
 	.title h1 {
