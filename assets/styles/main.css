@@ -64,14 +64,17 @@ h6 {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	margin-bottom: 35px;
-	width: 55%;
+	margin-bottom: 45px;
+	width: 70%;
 	max-width: 1000px;
 }
 #header a {
 	text-decoration: none !important;
 	box-shadow: none;
 	color: rgba(0,0,0,0.0);
+}
+#header a:hover {
+	cursor: help;
 }
 #header img{
    text-decoration: none !important;
@@ -123,22 +126,27 @@ a {
 	text-decoration: none;
 	color: #1a1a1a;
 }
+a:hover {
+	cursor: help;
+}
 .project a:hover {
 	font-family: orpheuspro, whitman-display, serif;
 	line-height: 1.25;
 	font-style: italic;
 	letter-spacing: 3px;
+	cursor: help;
 }
 .project h4:hover {
 	font-family: orpheuspro, whitman-display, serif;
 	line-height: 1.25;
 	font-style: italic;
 	letter-spacing: 3px;
-	cursor: pointer;
+	cursor: help;
 }
 .archive a:hover {
 	font-style: italic;
 	letter-spacing: 3px;
+	cursor: help;
 }
 .glowlink {
 	margin: auto;
@@ -156,6 +164,7 @@ a {
 .glowlink a:hover {
 	color: #fff;
 	text-shadow: 0 0 15px #000;
+	cursor: help;
 }
 mark {
 	background-color: #595959;

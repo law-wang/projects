@@ -1,0 +1,279 @@
+@import url("https://use.typekit.net/xbv3jvp.css");
+
+body {
+	font-family: "neue-haas-unica", sans-serif;
+		font-weight: 400;
+		font-size: 14px;
+  	line-height: 20px;
+	background-color: #f8f8f8;
+	margin-top: 200px;
+	margin-bottom: 200px;
+	font-style: normal;
+	font-weight: 500;
+  	color: #000;
+	cursor: help;
+}
+.overall {
+	position: absolute;
+	width: 100% !important;
+	top: 0;
+	left: 0;
+	margin-bottom: 25%;
+	vertical-align: center;
+	align-items: center;
+	box-sizing: border-box !important;
+}
+
+/* Text */
+h1 {
+	font-family: neue-haas-grotesk-display, "Helvetica-Neue", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		font-size: 100px;
+		letter-spacing: 5px;
+		line-height: normal;
+		text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+	color: #1a1a1a;
+}
+h4 {
+	color: #1a1a1a;
+	font-weight: 500;
+	font-size: 25px;
+	text-transform: capitalize;
+	padding: 10px 0 0 0;
+	margin: 0;
+}
+h5 {
+	font-size: 20px;
+	text-transform: lowercase;
+	margin: 10px 0 15px 0;
+}
+h6 {
+	color: #1a1a1a;
+	font-size: 25px;
+	text-transform: lowercase;
+	letter-spacing: 3px;
+	padding: 10px 0 5px 0;
+	margin: 0;
+}
+
+/* Text Classes */
+#header {
+	margin: 10% auto 50px auto;
+	text-align: center;
+	width: 70%;
+	max-width: 1000px;
+	min-width: 300px;
+}
+#header a {
+	text-decoration: none !important;
+	box-shadow: none;
+	color: rgba(0,0,0,0.0);
+}
+#header img{
+   text-decoration: none !important;
+   border: 0px !important;
+   outline: none;
+   border-width: 0px;
+   outline-width: 0px;
+   border-bottom: none;
+	 box-shadow: none;
+}
+.projectcontainer {
+	width: 40%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	font-family: aktiv-grotesk, "Helvetica Neue", "Helvetica", "Franklin Gothic", "Arial", sans-serif;
+		font-weight: 500;
+		font-style: normal;
+		letter-spacing: 1px;
+		text-align: center;
+		line-height: 22px;
+	background-color: rgba(0,0,0,0.0);
+}
+.project {
+	text-align: center;
+	text-transform: capitalize;
+	line-height: normal;
+	width: 80%;
+	margin: auto;
+}
+.description {
+	margin: 10px auto 0 auto;
+	font-family: baskerville-urw, whitman-display, orpheuspro, aktiv-grotesk, serif;
+	font-weight: 400;
+	font-size: 18px;
+	font-style: italic;
+	text-align: justify;
+	letter-spacing: 1px;
+	width: 70%;
+	max-width: 500px;
+}
+.dright {
+	margin: 5% auto 0 60%;
+	width: 20%;
+}
+.title {
+	margin-left: 20%;
+	padding: 0 2% 0 2%;
+	position: absolute;
+}
+.imageleft {
+	position: absolute;
+	width: 45%;
+	margin-top: 6%;
+	margin-left: 20%;
+	padding: 2%;
+	z-index: -99;
+}
+.emphasize {
+	font-style: normal;
+}
+
+/* Links */
+a {
+	text-decoration: none;
+	color: #1a1a1a;
+}
+a:hover {
+	cursor: help;
+}
+.project a:hover {
+	font-family: orpheuspro, whitman-display, serif;
+	line-height: 1.25;
+	font-style: italic;
+	letter-spacing: 3px;
+	cursor: help;
+}
+.project h4:hover {
+	font-family: orpheuspro, whitman-display, serif;
+	line-height: 1.25;
+	font-style: italic;
+	letter-spacing: 3px;
+	cursor: help;
+}
+.archive a:hover {
+	font-style: italic;
+	letter-spacing: 3px;
+	cursor: help;
+}
+.glowlink {
+	margin: auto;
+	text-align: center;
+}
+.glowlink a {
+	color: #595959;
+	text-decoration: none;
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	transition: all .3s linear;
+}
+.glowlink a:hover {
+	color: #fff;
+	text-shadow: 0 0 15px #000;
+	cursor: help;
+}
+mark {
+	background-color: #595959;
+	color: #fff;
+	padding-left: 2px;
+	padding-right: 1px;
+}
+
+/* For Flexible Display*/
+@media only screen and (min-width: 2000px) {
+	#header {
+		margin-bottom: 3%;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.overall {
+		margin-bottom: 30px;
+	}
+	.projectcontainer {
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 3%;
+		margin-bottom: 5%;
+		height: auto;
+		background-color: rgba(0,0,0,0.0);
+	}
+}
+@media only screen and (max-width: 1000px) {
+	.imageleft {
+		position: relative;
+		align-items: center;
+		margin-top: 0;
+		margin-bottom: 20px;
+		margin-left: auto;
+		margin-right: auto;
+	  display: block;
+		width: 70%;
+	}
+	.title {
+		position: relative;
+		padding: 0;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 0;
+	}
+	.dright {
+		margin: auto;
+		width: 50%;
+	}
+	.overall {
+		margin-bottom: 100px;
+	}
+}
+@media only screen and (max-width: 950px) {
+	#header {
+		margin-top: 10%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-bottom: 10px;
+		width: 100%;
+	}
+	.title h1 {
+		padding-top: 10px;
+		font-size: 90px;
+	}
+}
+@media only screen and (max-width: 700px) {
+	.projectcontainer {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		height: auto;
+		margin-top: 20px;
+		background-color: rgba(0,0,0,0.0);
+		margin-bottom: 5%;
+	}
+	.imageleft {
+		width: 90%;
+	}
+	.dright {
+		margin: auto;
+		width: 90%;
+	}
+	.title h1 {
+		font-size: 70px;
+	}
+	.overall {
+		margin-bottom: 70px;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.title h1 {
+		font-size: 60px;
+		padding-top: 10px;
+	}
+}
