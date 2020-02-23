@@ -4,9 +4,10 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 500px;
+  max-width: 800px;
+  width: 80%;
   position: relative;
-  margin: 20px auto auto auto;
+  margin: 30px auto auto auto;
 }
 
 /* Next & previous buttons */
