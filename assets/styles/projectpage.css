@@ -59,7 +59,7 @@ h6 {
 	margin: 0;
 }
 
-/* Text Classes */
+/* Text Classes ONLY */
 #header {
 	margin: 10% auto 50px auto;
 	text-align: center;
@@ -95,6 +95,8 @@ h6 {
 		line-height: 22px;
 	background-color: rgba(0,0,0,0.0);
 }
+
+/* Description ONLY */
 .description {
 	margin: 10px auto 0 auto;
 	font-family: baskerville-urw, whitman-display, orpheuspro, aktiv-grotesk, serif;
@@ -127,6 +129,11 @@ h6 {
 	padding: 15px;
 	background-color: rgb(230, 230, 230, 0.65);
 }
+.tenoftendescription {
+	width: 100%;
+}
+
+/* Title ONLY */
 .titleleft {
 	margin-left: 20%;
 	padding: 0 2% 0 2%;
@@ -141,8 +148,13 @@ h6 {
 	margin-bottom: 0;
 }
 .tenoftentitle {
-	width: 50%;
+	width: 70%;
 }
+.tenoftentitle h1 {
+	font-size: 60px;
+}
+
+/* Images ONLY */
 .imageleft {
 	position: absolute;
 	width: 45%;
@@ -240,6 +252,12 @@ mark {
 		height: auto;
 		background-color: rgba(0,0,0,0.0);
 	}
+	.tenoftentitle {
+		width: 100%;
+	}
+	.dright {
+		width: 30%;
+	}
 }
 @media only screen and (max-width: 1000px) {
 	.imageleft,
@@ -287,6 +305,9 @@ mark {
 		padding-top: 10px;
 		font-size: 90px;
 	}
+	.tenoftentitle h1 {
+		font-size: 60px;
+	}
 }
 @media only screen and (max-width: 700px) {
 	.projectcontainer {
@@ -308,6 +329,9 @@ mark {
 	.title h1 {
 		font-size: 70px;
 	}
+	.tenoftentitle h1 {
+		font-size: 50px;
+	}
 	.overall {
 		margin-bottom: 70px;
 	}
@@ -316,6 +340,9 @@ mark {
 	.title h1 {
 		font-size: 60px;
 		padding-top: 10px;
+	}
+	.tenoftentitle h1 {
+		font-size: 30px;
 	}
 	.tenoftentitle {
 		width: 100%;
