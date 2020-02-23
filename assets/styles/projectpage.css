@@ -140,6 +140,9 @@ h6 {
 	margin-right: auto;
 	margin-bottom: 0;
 }
+.tenoftentitle {
+	width: 50%;
+}
 .imageleft {
 	position: absolute;
 	width: 45%;
@@ -218,7 +221,7 @@ mark {
 	padding-right: 1px;
 }
 
-/* For Flexible Display*/
+/* For Responsive Display*/
 @media only screen and (min-width: 2000px) {
 	#header {
 		margin-bottom: 3%;
@@ -239,7 +242,8 @@ mark {
 	}
 }
 @media only screen and (max-width: 1000px) {
-	.imageleft, .imagerightbottom {
+	.imageleft,
+	.imagerightbottom {
 		position: relative;
 		align-items: center;
 		margin-top: 0;
@@ -261,7 +265,8 @@ mark {
 		margin: auto;
 		width: 50%;
 	}
-	.drightbottom, .dleft {
+	.drightbottom,
+	.dleft {
 		background-color: inherit;
 		margin-bottom: 20px;
 	}
@@ -293,7 +298,8 @@ mark {
 		background-color: rgba(0,0,0,0.0);
 		margin-bottom: 5%;
 	}
-	.imageleft, .imagerightbottom {
+	.imageleft,
+	.imagerightbottom {
 		width: 90%;
 	}
 	.dright {
@@ -310,5 +316,8 @@ mark {
 	.title h1 {
 		font-size: 60px;
 		padding-top: 10px;
+	}
+	.tenoftentitle {
+		width: 100%;
 	}
 }
